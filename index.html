@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Login Page</title>
 </head>
-<body>
-	<h1 align="center">Login</h1>
-	<hr>
+<body style="background-color: cyan">
+	<h1 align="center" style="background-color: blue" >Login</h1>
+	<hr style="background-color: cyan">
+	<br><br>
 	<form align = "center">
-		<label for = "Username">Username</label>
-		<input type="text" name="Username" placeholder="Enter your Username"><br>
-		<label for = "password">Password</label>
-		<input type="text" name="Password" placeholder="Enter your Password">
+		<label for = "Username" style="font-size: 25px"><b>Username : </b></label>
+		<input type="text" name="Username" placeholder="Enter your Username" style="background-color: yellow" required="1" autocomplete="on">
 		<br>
-		<input type="submit" name="" value = "Login">
-
-		<p>Don't remember your password please<a href="pages/forget.html">Forget here</a></p>
-
-		<p>Don't have an account please <a href="Pages/register.htm.">Register</a></p>
+		<label for="Password" style="font-size: 25px"><b>Password : </b></label>
+		<input type="text" name="Password" placeholder="Enter your Password" style="background-color: yellow" required="1" autocomplete="off">
+		<br>
+		<label for="Phone Number" style="font-size: 25px"><b>Phone Number : </b></label>
+		<input type="Number" name="Phone Number" placeholder="Enter your Phone Number" style="background-color: yellow" autocomplete="on">
+		<br>
+		<label for="email" style="font-size: 25px"><b>Email : </b></label>
+		<input type="email" name="email" placeholder="Enter your Email Address" style="background-color: yellow" required="1" autocomplete="on">
+		<br><br><br>
+		<input type="submit" name="Login" value="Login"  style="background-color: yellow">
+		<p>If you have already registered or login another id then click <a href="/home/miju/Pictures/Tour Photo/MultiplePage Website/index.html">Login</a></p>
+		<p>If you forget your password the click <a href="/home/miju/Pictures/Tour Photo/MultiplePage Website/Pages/Forget/forget.html">Forgotten Password</a></p>
+		<p>If you have not registered then  <a href="/home/miju/Pictures/Tour Photo/MultiplePage Website/Pages/Register/register.html">Registered</a>  your account</p>
 	</form>
 </body>
 </html>
