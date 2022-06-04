@@ -1,0 +1,28 @@
+h1{
+		color: white;
+		text-align: center;
+		background-color: blue
+}
+
+.main{
+	text-align: center;
+	background-color: black;
+	color: red;
+}
+h1.main{
+	text-align: center;
+	background-color: green;
+	color: white;
+}
+
+body{
+	background-color: black;
+}
+p{
+	font-family: italic;
+	color: yellow;
+}
+#submit-btn{
+	color: red;
+	background-color: yellow;
+}
