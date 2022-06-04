@@ -40,3 +40,7 @@ form.register{
 .l{
 	background-color: red;
 }
+p.register{
+	text-align: right;
+	background-color: white;
+}

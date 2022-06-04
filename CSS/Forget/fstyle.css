@@ -1,0 +1,29 @@
+body.forget{
+	background-color: red;
+	text-align: center;
+}
+
+h1.forget{
+	background-color: green;
+	color: red;
+	text-align: center;
+}
+hr.forget{
+	background-color: red;
+}
+form.forget{
+	background-color: cyan;
+}
+.u{
+	background-color: skyblue;
+	font-size: 25px;
+	color: green;
+}
+.p{
+	background-color: yellow;
+}
+
+p.forget{
+	background-color: yellow;
+	text-align: right;
+}
