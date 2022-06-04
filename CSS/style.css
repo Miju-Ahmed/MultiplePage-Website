@@ -1,7 +1,7 @@
 h1{
 		color: white;
 		text-align: center;
-		background-color: blue
+		background-color: blue;
 }
 
 .main{
@@ -25,4 +25,7 @@ p{
 #submit-btn{
 	color: red;
 	background-color: yellow;
+}
+hr.main{
+	background-color: red;
 }

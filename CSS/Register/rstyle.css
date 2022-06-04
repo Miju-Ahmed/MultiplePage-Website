@@ -1,0 +1,30 @@
+body.register{
+	background-color: cyan;
+}
+form.form1{
+	text-align: center;
+	background-color: skyblue;
+}
+
+h1.register{
+	background-color: red;
+	color: green;
+	text-align: center;
+}
+form.register{
+	text-align: center;
+	color: blue;
+}
+#day{
+	background-color: green;
+}
+#month{
+	background-color: blue;
+}
+#year{
+	background-color: red;
+}
+.u{
+	font-size: 25px;
+	background-color: blue;
+}
