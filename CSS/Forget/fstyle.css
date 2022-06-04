@@ -1,6 +1,12 @@
 body.forget{
 	background-color: red;
 	text-align: center;
+	margin-top: 2px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 500px;
+	border-color: yellow;
+	border-style: double;
 }
 
 h1.forget{
@@ -26,4 +32,14 @@ form.forget{
 p.forget{
 	background-color: yellow;
 	text-align: right;
+	border-color: green;
+	border-style: dashed;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	margin-left: 60px;
+	margin-right: 100px;
+}
+.l{
+	background-color: red;
 }

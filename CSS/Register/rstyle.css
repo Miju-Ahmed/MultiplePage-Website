@@ -1,9 +1,17 @@
 body.register{
 	background-color: cyan;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 100px;
+	border-color: red;
+	border-style: double;
 }
 form.form1{
 	text-align: center;
 	background-color: skyblue;
+	border-color: green;
+	border-style: dashed;
 }
 
 h1.register{
@@ -43,4 +51,6 @@ form.register{
 p.register{
 	text-align: right;
 	background-color: white;
+	border-color: green;
+	border-style: dashed;
 }
