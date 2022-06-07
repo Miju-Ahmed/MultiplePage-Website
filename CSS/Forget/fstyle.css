@@ -1,5 +1,5 @@
 body.forget{
-	background-color: red;
+	background-color: aqua;
 	text-align: center;
 	margin-top: 2px;
 	margin-left: 200px;
@@ -17,29 +17,53 @@ h1.forget{
 hr.forget{
 	background-color: red;
 }
-form.forget{
-	background-color: cyan;
+
+div form {
+	background-color: white;
+	color: blue;
+	margin-top: 10px;
+	margin-left: 92px;
+	margin-right: 92px;
+	margin-bottom: 50px;
 }
+
 .u{
 	background-color: skyblue;
 	font-size: 25px;
 	color: green;
 }
-.p{
+
+div input{
 	background-color: yellow;
+	color: red;
 }
 
-p.forget{
-	background-color: yellow;
-	text-align: right;
-	border-color: green;
-	border-style: dashed;
-	border-radius: 5px;
-	margin-top: 30px;
-	margin-bottom: 100px;
-	margin-left: 60px;
-	margin-right: 100px;
+
+div p {
+	background-color: white;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 15px;
+	margin-bottom: 30px;
 }
-.l{
+
+div a{
+	background-color: white;
+}
+
+a:link{
+	color:red;
+}
+a:visited{
+	color: yellow;
+}
+a.highlight:hover{
+	color: red;
 	background-color: red;
+}
+a:active{
+	color: red;
+}
+div:hover{
+	background-color: blue;
 }
