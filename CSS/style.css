@@ -61,3 +61,10 @@ form.main{
 	border-color: white;
 	border-style: dotted;
 }
+div p {
+	background-color:green;
+}
+div input {
+	background-color: aqua;
+	color: red;
+}

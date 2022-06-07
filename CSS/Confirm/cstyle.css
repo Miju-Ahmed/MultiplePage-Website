@@ -11,3 +11,9 @@ body.confirm{
 h1.confirm{
 	background-color: red;
 }
+div p {
+	background-color: aqua;
+}
+div form {
+	background-color: green;
+}
